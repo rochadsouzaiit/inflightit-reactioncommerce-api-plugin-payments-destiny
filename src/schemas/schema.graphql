@@ -1,20 +1,20 @@
-"Data for an example IOU payment"
-type ExampleIOUPaymentData {
-  "The name of the IOU payer entered by the shopper"
+"Data for Destiny payment"
+type DestinyPaymentData {
+  "The name of the Destiny payer entered by the shopper"
   fullName: String!
 }
 
-extend union PaymentData = ExampleIOUPaymentData
+extend union PaymentData = DestinyPaymentData
 
-"Data for an example IOU payment method"
-type ExampleIOUPaymentMethodData {
-  "Example"
-  example: String!
+"Data for destiny payment method"
+type DestinyPaymentMethodData {
+  "info"
+  info: String!
 }
 
-extend union PaymentMethodData = ExampleIOUPaymentMethodData
+extend union PaymentMethodData = DestinyPaymentMethodData
 
 extend enum PaymentMethodName {
-  "IOU Example payment method"
-  iou_example
+  "Destiny payment method"
+  destiny_payment
 }

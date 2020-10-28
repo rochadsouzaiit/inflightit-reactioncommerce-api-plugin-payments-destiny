@@ -1,27 +1,26 @@
 {
-  "name": "@reactioncommerce/api-plugin-payments-example",
-  "description": "Example Payments plugin for the Reaction API",
-  "version": "0.0.0-development",
+  "name": "@inflightit/api-plugin-payments-destiny",
+  "description": "Payment on destiny",
+  "version": "0.0.0",
   "main": "index.js",
   "type": "module",
   "engines": {
     "node": ">=12.14.1"
   },
-  "homepage": "https://github.com/reactioncommerce/api-plugin-payments-example",
-  "url": "https://github.com/reactioncommerce/api-plugin-payments-example",
+  "homepage": "https://github.com/rochadsouzaiit/inflightit-reactioncommerce-api-plugin-payments-destiny",
+  "url": "https://github.com/rochadsouzaiit/inflightit-reactioncommerce-api-plugin-payments-destiny",
   "email": "engineering@reactioncommerce.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/api-plugin-payments-example.git"
+    "url": "git+https://github.com/rochadsouzaiit/inflightit-reactioncommerce-api-plugin-payments-destiny.git"
   },
   "author": {
-    "name": "Reaction Commerce",
-    "email": "engineering@reactioncommerce.com",
-    "url": "https://reactioncommerce.com"
+    "name": "InflightIT",
+    "url": "https://inflightit.com"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/api-plugin-payments-example/issues"
+    "url": "https://github.com/rochadsouzaiit/inflightit-reactioncommerce-api-plugin-payments-destiny/issues"
   },
   "sideEffects": false,
   "dependencies": {
