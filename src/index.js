@@ -15,7 +15,7 @@ import startup from "./startup.js";
 export default async function register(app) {
   await app.registerPlugin({
     label: "DESTINY-PAYMENT",
-    name: "destiny-payment",
+    name: "destiny_payment",
     version: pkg.version,
     i18n,
     graphQL: {
